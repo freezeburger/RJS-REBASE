@@ -13,7 +13,7 @@ const fetchPosts = async () => {
 export const store = {
 
     state:{
-        products: [] as Types.Products.Product[],
+        products: [] as Types.Products.ProductDTO[],
         posts: [] as Types.Posts.Post[],
     },
 
