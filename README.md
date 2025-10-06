@@ -8,6 +8,7 @@ npm install
 npm start
 npm run dev:api
 npx generate-react-cli component COMPONENT_NAME 
+git branch -M dev
 ```
 
 
@@ -76,7 +77,7 @@ src/
 │
 ├── components/           # Composants de présentation purs (Presentation)
 │   └── Button.tsx
-│   └── UserCard.tsx
+│   └── Card.tsx
 │
 ├── containers/           # Composants connectés à Redux (Container)
 │   └── UserListContainer.tsx
@@ -85,7 +86,7 @@ src/
 │   └── HomePage.tsx
 │   └── ProfilePage.tsx
 │
-├── store/                # Redux store, reducers, slices, actions
+├── store/                # Redux store, reducers, slices,  actions
 │   └── index.ts
 │   └── userSlice.ts
 │
